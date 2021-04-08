@@ -1,6 +1,7 @@
 /vendor/
 .idea
 .idea/*
+/var/
 
 .php_cs.cache
 phpunit.xml
