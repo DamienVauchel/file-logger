@@ -1,0 +1,40 @@
+{
+    "name": "scoobydam/file-logger",
+    "description": "Simple and light PHP file logger",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["console", "file", "logger", "print", "echo", "easy", "simple", "light"],
+    "authors": [
+        {
+            "name": "Damien",
+            "email": "damien.vauchel@pm.me"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.3.0",
+        "psr/log": "^1.1",
+        "scoobydam/console-logger": "^1.0"
+    },
+    "require-dev": {
+        "phpro/grumphp": "^1.3",
+        "friendsofphp/php-cs-fixer": "^2.18",
+        "phpstan/phpstan": "^0.12.83",
+        "phpunit/phpunit": "^9.5"
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "ScoobyFileLogger\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ScoobyFileLogger\\Tests\\": "tests/"
+        }
+    }
+}
